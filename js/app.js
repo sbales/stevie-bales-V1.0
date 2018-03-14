@@ -199,7 +199,8 @@ jQuery(document).ready(function($) {
         items: 1,
         autoHeight: true,
         autoplay: true,
-        loop: true
+        loop: true,
+        autoplaySpeed: 1000
     });
     $('.testimonials-slider-2').owlCarousel({
         items: 1,

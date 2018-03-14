@@ -1,49 +1,47 @@
 //Typography
 h1 {
-    font-family: $oswald;
+    font-family: $title;
     letter-spacing: $lspacing;
     font-weight: $light-weight;
 }
 
 h2 {
-    font-family: $oswald;
+    font-family: $title;
     font-weight: $light-weight;
 }
 
 h3 {
-    font-family: $oswald;
+    font-family: $title;
     font-weight: $light-weight;
 }
 
 h4 {
-    font-family: $open-sans;
+    font-family: $sans-serif;
     font-weight: $light-weight;
 }
 
 h5 {
-    font-family: $open-sans;
+    font-family: $sans-serif;
     font-weight: $light-weight;
 }
 
 h6 {
-    font-family: $open-sans;
+    font-family: $sans-serif;
     font-weight: $bold-weight;
 }
 
 p {
-    font-family: $open-sans;
+    font-family: $sans-serif;
     font-weight: $med-weight;
     font-size: 1.4rem;
 }
 
-em {
-    font-weight: $bold-weight!important;
-    font-style: italic!important;
-    font-size: 85%!important;
-}
-
 b:after {
     background-color: $secondary;
+}
+
+.serif{
+   font-family: $serif; 
 }
 
 //Colors
