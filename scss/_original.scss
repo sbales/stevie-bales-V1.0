@@ -6329,7 +6329,7 @@ section.iconboxes .row {
 .overlay-color:before {
     content: '';
     position: absolute;
-    background: $black;
+    background: $secondary;
     width: 100%;
     height: 100%;
     top: 0;
@@ -6347,7 +6347,7 @@ section.iconboxes .row {
 .overlay-color:before {
     content: '';
     position: absolute;
-    background: $black;
+    background: $secondary;
     width: 100%;
     height: 100%;
     top: 0;
@@ -9594,7 +9594,7 @@ ul.price-list li img + span.wrapper {
     position: relative;
     overflow: hidden;
     margin: 0;
-    background: $black;
+    background: $dark-grey;
     text-align: center;
     cursor: pointer;
 }
@@ -11676,7 +11676,7 @@ path.stroke-thin {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    background: rgba(190, 38, 39, 0.7);
+    background: rgba(99, 99, 99, 0.7);
     z-index: 0;
 }
 

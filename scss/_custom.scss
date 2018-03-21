@@ -62,10 +62,23 @@ b:after {
 }
 
 //Buttons
-button {
+.button {
     border: 2pt solid $secondary;
 }
 
-filled {
+.filled {
     background-color: $secondary;
+}
+
+//Forms
+footer button[type="submit"]{
+    background-color: transparent;
+    border: 1px solid $white;
+    color: $white;
+}
+
+footer button[type="submit"]:hover{
+    border: 1px solid $black;
+    color: $black;
+    background-color: transparent!important;
 }
