@@ -82,3 +82,13 @@ footer button[type="submit"]:hover{
     color: $black;
     background-color: transparent!important;
 }
+
+//Images
+[data-overlay]:before, .overlay-color:before .overlay-dark{
+    background: $primary!important;
+}
+
+//Background Colors
+.lgrey-bg {
+    background: $light-grey
+}
